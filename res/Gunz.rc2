@@ -1,0 +1,38 @@
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+#include "VersionNo.h"
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 	FILEVER
+ PRODUCTVERSION PRODUCTVER
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "CompanyName", "Immortal Gunz"
+            VALUE "FileDescription", "IGunz"
+            VALUE "FileVersion", "1.0"
+            VALUE "InternalName", "IGunz"
+            VALUE "LegalCopyright", "Copyright (c) - 2017 Immortal Gunz"
+            VALUE "OriginalFilename", "IGunz.exe"
+            VALUE "ProductName", "IGunz"
+            VALUE "ProductVersion", "1.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
